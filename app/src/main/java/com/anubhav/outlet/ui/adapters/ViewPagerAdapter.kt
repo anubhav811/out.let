@@ -1,4 +1,4 @@
-package com.anubhav.outlet.ui
+package com.anubhav.outlet.ui.adapters
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
