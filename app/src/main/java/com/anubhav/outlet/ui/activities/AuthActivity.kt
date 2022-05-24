@@ -1,27 +1,19 @@
 package com.anubhav.outlet.ui.activities
 
-import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.anubhav.outlet.databinding.ActivityAuthBinding
-import com.anubhav.outlet.ui.activities.ui.fragments.LoginFragment
-import com.anubhav.outlet.ui.activities.ui.fragments.SignUpFragment
+import com.anubhav.outlet.ui.fragments.auth.LoginFragment
+import com.anubhav.outlet.ui.fragments.auth.SignUpFragment
 import com.google.android.material.tabs.TabLayoutMediator
-import io.realm.mongodb.App
-import io.realm.mongodb.AppConfiguration
-import io.realm.mongodb.Credentials
 
 
 class AuthActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAuthBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityAuthBinding.inflate(layoutInflater)
         val view =  binding.root
         setContentView(view)
@@ -42,10 +34,6 @@ class AuthActivity : AppCompatActivity() {
         }.attach()
 
     }
-
-
-
-
     class ViewPagerAdapter(
         val items :  ArrayList<Fragment>,
         activity: AppCompatActivity
@@ -59,8 +47,6 @@ class AuthActivity : AppCompatActivity() {
             return items[position]
         }
     }
-
-
 
 
 }
