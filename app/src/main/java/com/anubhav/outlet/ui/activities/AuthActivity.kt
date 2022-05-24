@@ -1,8 +1,5 @@
 package com.anubhav.outlet.ui.activities
 
-import android.R
-import android.R.attr
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
@@ -12,10 +9,6 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.anubhav.outlet.databinding.ActivityAuthBinding
 import com.anubhav.outlet.ui.fragments.LoginFragment
 import com.anubhav.outlet.ui.fragments.SignUpFragment
-import com.google.android.gms.auth.api.signin.GoogleSignIn
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount
-import com.google.android.gms.common.api.ApiException
-import com.google.android.gms.tasks.Task
 import com.google.android.material.tabs.TabLayoutMediator
 import io.realm.mongodb.App
 import io.realm.mongodb.AppConfiguration
@@ -31,6 +24,7 @@ class AuthActivity : AppCompatActivity() {
         binding = ActivityAuthBinding.inflate(layoutInflater)
         val view =  binding.root
         setContentView(view)
+
 
         val fragments : ArrayList<Fragment> = arrayListOf(
             LoginFragment(),
