@@ -16,6 +16,18 @@
         <entry key="..\:/Learning/Android/OutLet/app/src/main/res/layout/activity_splash.xml" value="0.136" />
         <entry key="..\:/Learning/Android/OutLet/app/src/main/res/layout/fragment_login.xml" value="0.2" />
         <entry key="..\:/Learning/Android/OutLet/app/src/main/res/layout/fragment_sign_up.xml" value="0.4" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_logo.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_logo2.xml" value="0.1355" />
+        <entry key="app/src/main/res/layout/activity_auth.xml" value="0.12335359675785208" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.24646159039683857" />
+        <entry key="app/src/main/res/layout/fragment_create_post.xml" value="0.25364583333333335" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.12335359675785208" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.12335359675785208" />
+        <entry key="app/src/main/res/layout/post_list.xml" value="0.12335359675785208" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2324074074074074" />
       </map>
     </option>
   </component>

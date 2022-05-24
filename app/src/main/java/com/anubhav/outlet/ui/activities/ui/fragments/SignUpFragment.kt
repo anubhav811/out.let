@@ -1,14 +1,11 @@
-package com.anubhav.outlet.ui.fragments
+package com.anubhav.outlet.ui.activities.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.anubhav.outlet.R
-import com.anubhav.outlet.databinding.FragmentLoginBinding
 import com.anubhav.outlet.databinding.FragmentSignUpBinding
-import io.realm.Realm
 
 
 class SignUpFragment : Fragment() {

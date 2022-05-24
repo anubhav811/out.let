@@ -1,12 +1,13 @@
 package com.anubhav.outlet.ui.activities
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.anubhav.outlet.databinding.ActivityAuthBinding
-import com.anubhav.outlet.ui.fragments.LoginFragment
-import com.anubhav.outlet.ui.fragments.SignUpFragment
+import com.anubhav.outlet.ui.activities.ui.fragments.LoginFragment
+import com.anubhav.outlet.ui.activities.ui.fragments.SignUpFragment
 import com.google.android.material.tabs.TabLayoutMediator
 
 
@@ -17,6 +18,7 @@ class AuthActivity : AppCompatActivity() {
         binding = ActivityAuthBinding.inflate(layoutInflater)
         val view =  binding.root
         setContentView(view)
+
 
         val fragments : ArrayList<Fragment> = arrayListOf(
             LoginFragment(),
@@ -31,6 +33,7 @@ class AuthActivity : AppCompatActivity() {
                 1 -> tab.text = "SIGN UP"
             }
         }.attach()
+
     }
     class ViewPagerAdapter(
         val items :  ArrayList<Fragment>,
