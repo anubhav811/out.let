@@ -1,4 +1,4 @@
-package com.anubhav.outlet.ui.activities.ui.fragments
+package com.anubhav.outlet.ui.fragments.auth
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -1,13 +1,12 @@
 package com.anubhav.outlet.ui.activities
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.anubhav.outlet.databinding.ActivityAuthBinding
-import com.anubhav.outlet.ui.activities.ui.fragments.LoginFragment
-import com.anubhav.outlet.ui.activities.ui.fragments.SignUpFragment
+import com.anubhav.outlet.ui.fragments.auth.LoginFragment
+import com.anubhav.outlet.ui.fragments.auth.SignUpFragment
 import com.google.android.material.tabs.TabLayoutMediator
 
 
