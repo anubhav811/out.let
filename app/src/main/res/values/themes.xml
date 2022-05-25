@@ -14,8 +14,16 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
-        <item name = "chipBackgroundColor">@color/chip_background_color</item>
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+<!--        <item name = "android:background">@color/chip_background_color</item>-->
+        <item name = "android:color">@color/chip_background_color</item>
         <item name = "android:padding">16dp</item>
+    </style>
+
+    <style name = "CustomEditTextPostStyle" parent="Widget.AppCompat.EditText">
+        <item name = "android:background">@drawable/ic_post_edit_text_background</item>
+        <item name = "android:padding">8dp</item>
+        <item name = "android:editable">false</item>
+        <item name = "android:textSize">12sp</item>
     </style>
 </resources>
