@@ -7,6 +7,9 @@
         <entry key="..\:/Learning/Android/OutLet/app/src/main/res/drawable/background_round_button.xml" value="0.2" />
         <entry key="..\:/Learning/Android/OutLet/app/src/main/res/drawable/background_round_et.xml" value="0.1275" />
         <entry key="..\:/Learning/Android/OutLet/app/src/main/res/drawable/default_dot.xml" value="0.1275" />
+        <entry key="..\:/Learning/Android/OutLet/app/src/main/res/drawable/ic_chip_background.xml" value="0.1" />
+        <entry key="..\:/Learning/Android/OutLet/app/src/main/res/drawable/ic_chip_background_checked.xml" value="0.1" />
+        <entry key="..\:/Learning/Android/OutLet/app/src/main/res/drawable/ic_post_edit_text_background.xml" value="0.1585" />
         <entry key="..\:/Learning/Android/OutLet/app/src/main/res/drawable/ic_user.xml" value="0.1275" />
         <entry key="..\:/Learning/Android/OutLet/app/src/main/res/drawable/line.xml" value="0.1835" />
         <entry key="..\:/Learning/Android/OutLet/app/src/main/res/drawable/selected_dot.xml" value="0.1275" />
@@ -25,12 +28,12 @@
         <entry key="app/src/main/res/drawable/ic_logo.xml" value="0.1355" />
         <entry key="app/src/main/res/drawable/ic_logo2.xml" value="0.1355" />
         <entry key="app/src/main/res/layout/activity_auth.xml" value="0.12335359675785208" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.34339304791636993" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.24646159039683857" />
         <entry key="app/src/main/res/layout/fragment_create_post.xml" value="0.25364583333333335" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.12335359675785208" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.12335359675785208" />
-        <entry key="app/src/main/res/layout/post_list.xml" value="0.37403261287113343" />
+        <entry key="app/src/main/res/layout/post_list.xml" value="0.12335359675785208" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2324074074074074" />
       </map>
     </option>

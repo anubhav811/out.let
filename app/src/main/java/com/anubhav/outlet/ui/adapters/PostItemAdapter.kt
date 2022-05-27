@@ -7,9 +7,7 @@ import androidx.recyclerview.widget.ListAdapter
 import com.anubhav.outlet.data.entities.PostItem
 import com.anubhav.outlet.viewmodels.PostViewHolder
 
-class PostItemAdapter(
-    private val context: Context
-): ListAdapter<PostItem, PostViewHolder>(DIFF_CALLBACK) {
+class PostItemAdapter(private val context: Context): ListAdapter<PostItem, PostViewHolder>(DIFF_CALLBACK) {
 
     companion object DIFF_CALLBACK: DiffUtil.ItemCallback<PostItem>(){
         override fun areItemsTheSame(oldItem: PostItem, newItem: PostItem): Boolean =

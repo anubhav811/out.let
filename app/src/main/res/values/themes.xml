@@ -10,14 +10,18 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
 
     <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
-<!--        <item name = "android:background">@color/chip_background_color</item>-->
-        <item name = "android:color">@color/chip_background_color</item>
+        <item name = "chipStyle">@color/chip_background_color</item>
+        <item name = "android:textColor">@color/chip_text_color</item>
         <item name = "android:padding">16dp</item>
+        <item name = "android:width">82dp</item>
+        <item name = "android:height">35dp</item>
+        <item name = "android:viewportWidth">82</item>
+        <item name = "android:viewportHeight">35</item>
     </style>
 
     <style name = "CustomEditTextPostStyle" parent="Widget.AppCompat.EditText">
